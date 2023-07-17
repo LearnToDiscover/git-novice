@@ -8,7 +8,11 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'swc'
+carpentry: l2d
+# Use L2D styling
+varnish: LearnToDiscover/varnish
+# We don't need the L2D version of sandpaper here
+sandpaper: carpentries/sandpaper
 
 # Overall title for pages.
 title: 'Version Control with Git'
@@ -27,13 +31,13 @@ life_cycle: 'stable'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/swcarpentry/git-novice'
+source: 'https://github.com/LearnToDiscover/git-novice'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'https://github.com/LearnToDiscover/git-novice/issues'
 
 # Navigation ------------------------------------------------
 #
@@ -58,7 +62,7 @@ contact: 'team@carpentries.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - 01-basics.md
 - 02-setup.md
 - 03-create.md
@@ -75,13 +79,13 @@ episodes:
 - 14-supplemental-rstudio.md
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
@@ -89,6 +93,5 @@ profiles:
 # sandpaper and varnish versions) should live
 
 
-url: 'https://swcarpentry.github.io/git-novice'
-analytics: carpentries
+url: 'https://learntodiscover.github.io/git-novice'
 lang: en
