@@ -9,8 +9,10 @@
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
 carpentry: l2d
-varnish: 'LearnToDiscover/varnish' # Use L2D styling
-sandpaper: 'carpentries/sandpaper' # We don't need the L2D version of sandpaper here
+# Use L2D styling
+varnish: LearnToDiscover/varnish
+# We don't need the L2D version of sandpaper here
+sandpaper: carpentries/sandpaper
 
 # Overall title for pages.
 title: 'Version Control with Git'
