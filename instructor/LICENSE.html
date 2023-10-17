@@ -65,7 +65,8 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><hr><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
+          </ul></li>
       </ul></div>
     <form class="d-flex col-md-2 search-form">
       <fieldset disabled><input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success tablet-search-button" type="submit">
@@ -283,13 +284,19 @@
                       <li>
                         <a href="../instructor/images.html">Extract All Images</a>
                       </li>
-                      
+                      <hr><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
                     </ul></div>
                 </div>
               </div>
             </div>
             <hr class="half-width resources"><a href="../instructor/aio.html">See all in one page</a>
             <br><hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
+            
+              <form method="get" action="../~">
+                <button action="submit" class="btn btn-primary-outline">Download Lesson Handout</button>
+              </form>
+              <!-- TODO: Generate Slides -->
+              <!-- <button class="btn btn-primary-outline">Export All Slides</button> -->
             
             </div>
           </div><!-- /div.accordion -->
@@ -427,7 +434,7 @@ of <a href="https://communityin.org/" class="external-link">Community Initiative
         <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
         <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/132a935208eb0dc4049617882125f4f17b5c3843" class="external-link">sandpaper (0.14.0)</a>,
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/fbf1fa2f2e55ef8fb3fee05e13fce7db60ab1065" class="external-link">sandpaper (0.14.0.9000)</a>,
         <a href="https://github.com/carpentries/pegboard/tree/ceff74340e5f621b76844e4f1b40eacb125da39f" class="external-link">pegboard (0.7.1)</a>,
       and <a href="https://github.com/LearnToDiscover/varnish/tree/aeffaff05b65bf7180c5154928fb2e3f42f9ec28" class="external-link">varnish (0.3.0)</a>.</p>
 			</div>
@@ -451,7 +458,7 @@ of <a href="https://communityin.org/" class="external-link">Community Initiative
   "identifier": "https://learntodiscover.github.io/git-novice/instructor/LICENSE.html",
   "dateCreated": "2014-12-04",
   "dateModified": "2023-07-13",
-  "datePublished": "2023-10-10"
+  "datePublished": "2023-10-17"
 }
 
   </script><script>
