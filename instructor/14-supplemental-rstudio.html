@@ -32,7 +32,7 @@
     </div>
   </div>
   <hr></header><nav class="navbar navbar-expand-xl navbar-light bg-white bottom-nav " aria-label="Main Navigation"><div class="container-fluid nav-container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
       <span class="menu-title">Menu</span>
     </button>
@@ -43,7 +43,7 @@
     </div>
     <div class="search-icon-sm">
       <!-- TODO: do not show until we have search
-      <i role="img" aria-label="search button" data-feather="search"></i>
+        <i role="img" aria-label="Search the All In One page" data-feather="search"></i>
       -->
     </div>
     <div class="desktop-nav">
@@ -68,11 +68,17 @@
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><hr><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
           </ul></li>
       </ul></div>
+    <!--
     <form class="d-flex col-md-2 search-form">
-      <fieldset disabled><input class="form-control me-2 searchbox" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success tablet-search-button" type="submit">
-          <i class="search-icon" data-feather="search" role="img" aria-label="search button"></i>
+      <fieldset disabled>
+      <input class="form-control me-2 searchbox" type="search" placeholder="" aria-label="">
+        <button class="btn btn-outline-success tablet-search-button"  type="submit">
+          <i class="search-icon" data-feather="search" role="img" aria-label="Search the All In One page"></i>
         </button>
-      </fieldset></form>
+      </fieldset>
+    </form>
+    -->
+    <a class="btn btn-primary" href="../aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div><!--/div.container-fluid -->
 </nav><div class="col-md-12 mobile-title">
   Version Control with Git
@@ -89,45 +95,48 @@
       <div class="row">
         <!-- START: inst/pkgdown/templates/navbar.html -->
 <div id="sidebar-col" class="col-lg-4">
-  <div id="sidebar" class="sidebar">
-      <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle">
-          <i class="search-icon" data-feather="x" role="img"></i>
-        </button>
-        <div class="sidebar-inner">
-          <div class="row mobile-row">
-            <div class="col">
-              <div class="sidenav-view-selector">
-                <div class="accordion accordion-flush" id="accordionFlush9">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingNine">
-                      <button class="accordion-button collapsed" id="instructor" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                        <i id="eye" aria-hidden="true" class="icon" data-feather="eye"></i> Instructor View
-                      </button>
-                    </h2>
-                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlush2">
-                      <div class="accordion-body">
-                        <a href="../14-supplemental-rstudio.html">Learner View</a>
-                      </div>
+    <div id="sidebar" class="sidebar">
+        <nav aria-labelledby="flush-headingEleven"><button role="button" aria-label="close menu" alt="close menu" aria-expanded="true" aria-controls="sidebar" class="collapse-toggle" data-collapse="Collapse " data-episodes="Episodes ">
+                <i class="search-icon" data-feather="x" role="img"></i>
+            </button>
+            <div class="sidebar-inner">
+                <div class="row mobile-row">
+                    <div class="col">
+                        <div class="sidenav-view-selector">
+                            <div class="accordion accordion-flush" id="accordionFlush9">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingNine">
+                                        <button class="accordion-button collapsed" id="instructor" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                                            <i id="eye" aria-hidden="true" class="icon" data-feather="eye"></i>
+                                            Instructor View
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlush2">
+                                        <div class="accordion-body">
+                                            <a href="../14-supplemental-rstudio.html">Learner View</a>
+                                        </div>
+                                    </div>
+                                                                     </div>
+                                <!--/div.accordion-item-->
+                            </div>
+                            <!--/div.accordion-flush-->
+                        </div>
+                        <!--div.sidenav-view-selector -->
                     </div>
-                  </div><!--/div.accordion-item-->
-                </div><!--/div.accordion-flush-->
-              </div><!--div.sidenav-view-selector -->
-            </div><!--/div.col -->
-      
-            <hr></div><!--/div.mobile-row -->
+                    <!--/div.col -->
+                    
+                    <hr></div>
+                <!--/div.mobile-row -->
 
-          <div class="accordion accordion-flush" id="accordionFlush11">
-            <div class="accordion-item">
-
-              <button id="chapters" class="accordion-button show" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-                <h2 class="accordion-header chapters" id="flush-headingEleven">
-                  EPISODES
-                </h2>
-              </button>
-              <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
-
-                <div class="accordion-body">
-                  <div class="accordion accordion-flush" id="accordionFlush1">
+                <div class="accordion accordion-flush" id="accordionFlush11">
+                    <div class="accordion-item">
+                        <button id="chapters" class="accordion-button show" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                            <h2 class="accordion-header chapters" id="flush-headingEleven">
+                                EPISODES
+                            </h2>
+                        </button>
+                        <div id="flush-collapseEleven" class="accordion-collapse show collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlush11">
+                            <div class="accordion-body"><div class="accordion accordion-flush" id="accordionFlush1">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading1">
         <a href="index.html">Summary and Schedule</a>
@@ -265,42 +274,46 @@
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
-
+</div>
+                        </div>
+                    </div>
+                     
+                    <hr class="half-width"><div class="accordion accordion-flush resources" id="accordionFlush12">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwelve">
+                                <button class="accordion-button collapsed" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                    RESOURCES
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlush12">
+                                <div class="accordion-body">
+                                    <ul><li>
+                                            <a href="../instructor/key-points.html">Key Points</a>
+                                        </li>
+                                        <li>
+                                            <a href="../instructor/instructor-notes.html">Instructor Notes</a>
+                                        </li>
+                                        <li>
+                                            <a href="../instructor/images.html">Extract All Images</a>
+                                        </li>
+                                           <hr><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
+                                    </ul></div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="half-width resources"><a href="../instructor/aio.html">See all in one page</a>
+                    
+                    <br><hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
+                        
+                    </div>
                 </div>
-              </div>
+                <!-- /div.accordion -->
             </div>
-
-            <hr class="half-width"><div class="accordion accordion-flush resources" id="accordionFlush12">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwelve">
-                  <button class="accordion-button collapsed" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-                    RESOURCES
-                  </button>
-                </h2>
-                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlush12">
-                  <div class="accordion-body">
-                    <ul><li>
-                        <a href="../instructor/key-points.html">Key Points</a>
-                      </li>
-                      <li>
-                        <a href="../instructor/instructor-notes.html">Instructor Notes</a>
-                      </li>
-                      <li>
-                        <a href="../instructor/images.html">Extract All Images</a>
-                      </li>
-                      <hr><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">Git Cheatsheets for Quick Reference</a></li>
-                    </ul></div>
-                </div>
-              </div>
-            </div>
-            <hr class="half-width resources"><a href="../instructor/aio.html">See all in one page</a>
-            <br><hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
-            
-            </div>
-          </div><!-- /div.accordion -->
-        </div><!-- /div.sidebar-inner -->
-      </nav></div><!-- /div.sidebar -->
-  </div><!-- /div.sidebar-col -->
+            <!-- /div.sidebar-inner -->
+        </nav></div>
+    <!-- /div.sidebar -->
+</div>
+<!-- /div.sidebar-col -->
 <!-- END:   inst/pkgdown/templates/navbar.html-->
 
         <!-- START: inst/pkgdown/templates/content-instructor.html -->
@@ -322,16 +335,16 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Supplemental: Using Git from RStudio</h1>
-        <p> Last updated on 2023-07-13 | 
+        <p>Last updated on 2023-07-13 |
         
         <a href="https://github.com/LearnToDiscover/git-novice/edit/main/episodes/14-supplemental-rstudio.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
         
         
-        <p>Estimated time <i aria-hidden="true" data-feather="clock"></i> 10 minutes </p>
+        <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 10 minutes</p>
         
         <div class="text-end">
-          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 
         
@@ -373,12 +386,13 @@ have some options here. Let’s say that we want to use RStudio with the
 recipes repository that we already made. Since that repository lives in
 a directory on our computer, we choose the option “Existing
 Directory”:</p>
-<figure><img src="../fig/RStudio_screenshot_existingdirectory.png" alt='RStudio screenshot showing New Project dialog window with "Create project from existing directory" selected' class="figure mx-auto d-block"></figure><div id="callout1" class="callout">
+<figure><img src="../fig/RStudio_screenshot_existingdirectory.png" alt='RStudio screenshot showing New Project dialog window with "Create project from existing directory" selected' class="figure mx-auto d-block"></figure><div id="do-you-see-a-version-control-option" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="do-you-see-a-version-control-option">Do You See a “Version Control” Option?<a class="anchor" aria-label="anchor" href="#do-you-see-a-version-control-option"></a></h3>
+<div id="do-you-see-a-version-control-option" class="callout-inner">
+<h3 class="callout-title">Do You See a “Version Control” Option?<a class="anchor" aria-label="anchor" href="#do-you-see-a-version-control-option"></a>
+</h3>
 <div class="callout-content">
 <p>Although we’re not going to use it here, there should be a “version
 control” option on this menu. That is what you would click on if you
@@ -438,12 +452,13 @@ shows information about changes in the lower panel (using output of
 <figure><img src="../fig/RStudio_screenshot_review.png" class="figure mx-auto d-block"></figure><p>The changes can be pushed by selecting “Push Branch” from the Git
 menu. There are also options to pull from the remote repository, and to
 view the commit history:</p>
-<figure><img src="../fig/RStudio_screenshot_history.png" alt='RStudio screenshot showing the git menu dropdown with "History" selected' class="figure mx-auto d-block"></figure><div id="callout2" class="callout">
+<figure><img src="../fig/RStudio_screenshot_history.png" alt='RStudio screenshot showing the git menu dropdown with "History" selected' class="figure mx-auto d-block"></figure><div id="are-the-pushpull-commands-grayed-out" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="are-the-pushpull-commands-grayed-out">Are the Push/Pull Commands Grayed Out?<a class="anchor" aria-label="anchor" href="#are-the-pushpull-commands-grayed-out"></a></h3>
+<div id="are-the-pushpull-commands-grayed-out" class="callout-inner">
+<h3 class="callout-title">Are the Push/Pull Commands Grayed Out?<a class="anchor" aria-label="anchor" href="#are-the-pushpull-commands-grayed-out"></a>
+</h3>
 <div class="callout-content">
 <p>Grayed out Push/Pull commands generally mean that RStudio doesn’t
 know the location of your remote repository (e.g. on GitHub). To fix
@@ -457,12 +472,13 @@ this, open a terminal to the repository and enter the command:
 <figure><img src="../fig/RStudio_screenshot_viewhistory.png" class="figure mx-auto d-block"></figure><p>RStudio creates a number of files that it uses to keep track of a
 project. We often don’t want to track these, in which case we add them
 to our <code>.gitignore</code> file:</p>
-<figure><img src="../fig/RStudio_screenshot_gitignore.png" alt="RStudio screenshot showing .gitignore open in the editor pane with the files .Rproj.user, .Rhistory, .RData, and *.Rproj added to the end" class="figure mx-auto d-block"></figure><div id="callout3" class="callout">
+<figure><img src="../fig/RStudio_screenshot_gitignore.png" alt="RStudio screenshot showing .gitignore open in the editor pane with the files .Rproj.user, .Rhistory, .RData, and *.Rproj added to the end" class="figure mx-auto d-block"></figure><div id="tip-versioning-disposable-output" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="section level3 callout-title callout-inner">
-<h3 class="callout-title" id="tip-versioning-disposable-output">Tip: versioning disposable output<a class="anchor" aria-label="anchor" href="#tip-versioning-disposable-output"></a></h3>
+<div id="tip-versioning-disposable-output" class="callout-inner">
+<h3 class="callout-title">Tip: versioning disposable output<a class="anchor" aria-label="anchor" href="#tip-versioning-disposable-output"></a>
+</h3>
 <div class="callout-content">
 <p>Generally you do not want to version control disposable output (or
 read-only data). You should modify the <code>.gitignore</code> file to
@@ -490,7 +506,7 @@ directory is not version controlled.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Solution to Challenge</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>This can be done in Rstudio:</p>
 <div class="codewrapper sourceCode" id="cb1">
@@ -545,29 +561,27 @@ project over time.</li>
 
       </div><!--/div.row-->
       		<footer class="row footer mx-md-3"><hr><div class="col-md-6">
-				<p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
+        <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
         
         <a href="https://github.com/LearnToDiscover/git-novice/edit/main/episodes/14-supplemental-rstudio.md" class="external-link">Edit on GitHub</a>
         
 	
-        | <a href="https://github.com/LearnToDiscover/git-novice/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a> 
+        | <a href="https://github.com/LearnToDiscover/git-novice/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://github.com/LearnToDiscover/git-novice/" class="external-link">Source</a></p>
 				<p><a href="https://github.com/LearnToDiscover/git-novice/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:https://github.com/LearnToDiscover/git-novice/issues" class="external-link">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
 			</div>
 			<div class="col-md-6">
         
-        <p>Materials licensed under <a href="../LICENSE.html">CC-BY 4.0</a> by the authors</p>
+        <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
         
-        <p><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">Template licensed under CC-BY 4.0</a> by <a href="https://carpentries.org" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/eb009faca249bac5b999ac5449990329d3eb7d0d" class="external-link">sandpaper (0.16.2)</a>,
-        <a href="https://github.com/carpentries/pegboard/tree/1bc5753e917d515c3d888ce6cc013c0a680eacfc" class="external-link">pegboard (0.7.3)</a>,
-      and <a href="https://github.com/LearnToDiscover/varnish/tree/aeffaff05b65bf7180c5154928fb2e3f42f9ec28" class="external-link">varnish (0.3.0)</a>.</p>
+        <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/b8c9a9480e61e3b12af2373a566f39b918b6c97d" class="external-link">sandpaper (0.16.4)</a>, <a href="https://github.com/carpentries/pegboard/tree/a32a7836d4455f407c3cafe8ab95edc636e5e919" class="external-link">pegboard (0.7.5)</a>, and <a href="https://github.com/LearnToDiscover/varnish/tree/7ac5e27a3dfed3a59ec1e5fcb0b719d430806598" class="external-link">varnish (1.0.2)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
 		<a href="#top">
-			<i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back to top"></i><br><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
+      <i class="search-icon" data-feather="arrow-up" role="img" aria-label="Back To Top"></i><br><!-- <span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top --><span class="d-none d-sm-none d-md-none d-lg-none d-xl-block">Back</span> To Top
 		</a>
 	</div>
   <script type="application/ld+json">
@@ -585,7 +599,7 @@ project over time.</li>
   "identifier": "https://learntodiscover.github.io/git-novice/instructor/14-supplemental-rstudio.html",
   "dateCreated": "2014-12-04",
   "dateModified": "2023-07-13",
-  "datePublished": "2024-03-05"
+  "datePublished": "2024-04-30"
 }
 
   </script><script>
